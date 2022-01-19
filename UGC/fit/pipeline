@@ -8,12 +8,12 @@ readnoise=4.6225
 sky=90.800000
 
 #Exponential profile:
-./imfit data.fits -c "$confdir"/exp_config.dat --mask mask.fits --gain=$gain --readnoise=$readnoise --sky=$sky --psf moffat.fits --save-model="$fits"/model_exp.fits --save-residual="$fits"/resid_exp.fits
-mv bestfit_parameters_imfit.dat "$fitdir"/bestfit_parameters_exp.dat 
+#./imfit data.fits -c "$confdir"/exp_config.dat --mask mask.fits --gain=$gain --readnoise=$readnoise --sky=$sky --psf moffat.fits --save-model="$fits"/model_exp.fits --save-residual="$fits"/resid_exp.fits
+#mv bestfit_parameters_imfit.dat "$fitdir"/bestfit_parameters_exp.dat 
 
 #Sersic profile:
-./imfit data.fits -c "$confdir"/sersic_config.dat --mask mask.fits --gain=$gain --readnoise=$readnoise --sky=$sky --psf moffat.fits --save-model="$fits"/model_sersic.fits --save-residual="$fits"/resid_sersic.fits
-mv bestfit_parameters_imfit.dat "$fitdir"/bestfit_parameters_sersic.dat 
+#./imfit data.fits -c "$confdir"/sersic_config.dat --mask mask.fits --gain=$gain --readnoise=$readnoise --sky=$sky --psf moffat.fits --save-model="$fits"/model_sersic.fits --save-residual="$fits"/#resid_sersic.fits
+#mv bestfit_parameters_imfit.dat "$fitdir"/bestfit_parameters_sersic.dat 
 
 #Combined profile:
 ./imfit data.fits -c "$confdir"/expsersic_config.dat --mask mask.fits --gain=$gain --readnoise=$readnoise --sky=$sky --psf moffat.fits --save-model="$fits"/model_expsersic.fits --save-residual="$fits"/resid_expsersic.fits
