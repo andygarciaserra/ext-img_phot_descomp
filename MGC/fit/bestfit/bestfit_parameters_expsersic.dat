@@ -1,0 +1,25 @@
+# Best-fit model results for imfit 1.8.0 (OpenMP-enabled)
+# Generated on Wed Jan 19 15:02:38 2022 by the following command:
+#    ./imfit data.fits -c config/expsersic_config.dat --mask mask.fits --gain=4.885 --readnoise=6.25 --sky=283.43986 --psf moffat.fits --save-model=model-resid/model_expsersic.fits --save-residual=model-resid/resid_expsersic.fits
+
+# Results of fit:
+#   Algorithm: Levenberg-Marquardt: status = 1 -- SUCCESS: Convergence in fit-statistic value.
+#   Fit statistic: chi-squared (data-based errors)
+#   Best-fit value: 47862.026333
+#   Reduced value: 1.467485
+#   AIC: 47884.034427
+#   BIC: 47976.347846
+
+X0		182.9298 # +/- 0.0184
+Y0		148.9415 # +/- 0.0138
+FUNCTION Sersic
+PA		-71.9566 # +/- 0.42394
+ell		0.350726 # +/- 0.0042876
+n		1.30814 # +/- 0.021116
+I_e		141.171 # +/- 2.6373
+r_e		8.56509 # +/- 0.10703
+FUNCTION Exponential
+PA		-70.5954 # +/- 0.22926
+ell		0.409783 # +/- 0.0025903
+I_0		103.142 # +/- 0.79819
+h		 49.199 # +/- 0.27717

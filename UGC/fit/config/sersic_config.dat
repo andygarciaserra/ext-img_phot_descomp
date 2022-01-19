@@ -1,0 +1,13 @@
+# This is an example of a configuration file for Imfit.
+# More specifically, it specifies a Sersic model for use in fitting a 
+# 256x256-pixel SDSS r-band cutout image of the galaxy IC 3478.
+
+X0   177.0298   125,200
+Y0   100.96682  100,200
+
+FUNCTION Sersic
+PA    -78.0872    -90,0
+ell    0.480233    0,1
+n      2    0,5
+I_e    472.187     0,500
+r_e    7     0,100
