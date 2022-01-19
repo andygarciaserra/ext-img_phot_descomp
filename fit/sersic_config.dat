@@ -2,12 +2,11 @@
 # More specifically, it specifies a Sersic model for use in fitting a 
 # 256x256-pixel SDSS r-band cutout image of the galaxy IC 3478.
 
-X0   129.0    125,135
-Y0   129.0    125,135
+X0   183    125,200
+Y0   149.0    125,200
 FUNCTION Sersic
-PA    18.0    0,90
-ell    0.2    0,1
-n      1.5    0,5
-I_e    15     0,500
-r_e    25     0,100
-
+PA    -14.0    -90,0
+ell    0.46    0,1
+n      2    0,5
+I_e    273.45     0,500
+r_e    6     0,100
