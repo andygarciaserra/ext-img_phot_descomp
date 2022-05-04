@@ -1,0 +1,20 @@
+# Config file for makeimage, meant to be used to generate a 51x51 image of a Moffat
+# function with FWHM = 2.59 pixels and beta = 3.1 (appropriate for SDSS r-band
+# image of IC 3478)
+
+NCOLS  501
+NROWS  501
+
+X0		176.9533 # +/- 0.0157
+Y0		100.7222 # +/- 0.0082
+FUNCTION Sersic
+PA		-83.6318 # +/- 0.06359
+ell		0.533617 # +/- 0.00087968
+n		2.00855  # +/- 0.010279
+I_e		 56.265  # +/- 0.56151
+r_e		47.3048  # +/- 0.29793
+FUNCTION Exponential
+PA		-40.5976 # +/- 0
+ell		      1  # +/- 0
+I_0		9.43716  # +/- 0
+h		190.439  # +/- 0

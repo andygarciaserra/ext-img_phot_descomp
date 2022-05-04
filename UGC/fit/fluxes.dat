@@ -1,0 +1,9 @@
+# Fluxes estimated on Fri Jan 21 20:04:12 2022 by makeimage 1.8.0 (OpenMP-enabled)
+# Using config file moffat.dat
+# (photometric zero point = 23.6939)
+#
+# Component               Flux        Magnitude   Fraction   Label
+Sersic                    9.5969e+05   8.7386     1.00000
+Exponential               0.0000e+00      ---     0.00000
+
+Total                     9.5969e+05   8.7386     1.00000
